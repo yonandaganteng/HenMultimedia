@@ -1,0 +1,107 @@
+[
+  {
+    "id": 1,
+    "nama": "Canon EOS R50",
+    "gambar": "./assets/Canon-EOS-R50.jpg",
+    "merek": "Canon",
+    "model": "EOS R5",
+    "deskripsi": "Kamera mirrorless full-frame dengan resolusi 45MP",
+    "sensor": "Full-frame CMOS 45MP",
+    "iso": "100-51200 (expandable 50-102400)",
+    "kecepatan": "12 fps (mekanis), 20 fps (elektronik)",
+    "video": "8K 30p, 4K 120p",
+    "harga": "Rp 12.500.000"
+  },
+  {
+    "id": 2,
+    "nama":"sony alpha 7",
+    "gambar":"./assets/sony alpha 7.jpg",
+    "merek": "Sony",
+    "model": "A7",
+    "deskripsi": "Kamera mirrorless full-frame dengan kualitas gambar luar biasa",
+    "sensor": "Full-frame Exmor CMOS 24.3MP",
+    "iso": "50-25600",
+    "kecepatan": "5 fps",
+    "video": "Full HD 60p",
+    "harga": "Rp 8.000.000"
+  },
+  {
+    "id": 3,
+    "nama":"fujifilm x-t30",
+    "gambar":"./assets/fujifilm x-t30.jpg",
+    "merek": "Fujifilm",
+    "model": "X-T30",
+    "deskripsi": "Kamera mirrorless APS-C dengan performa tinggi dan desain klasik",
+    "sensor": "APS-C X-Trans CMOS 4 26.1MP",
+    "iso": "160-12800 (expandable 80-51200)",
+    "kecepatan": "30 fps (electronic shutter)",
+    "video": "4K 30p",
+    "harga": "Rp 13.250.000"
+  },
+  {
+    "id": 4,
+    "nama":"nikon d3200",
+    "gambar": "./assets/nikon d3200.jpg",
+    "merek": "Nikon",
+    "model": "D3200",
+    "deskripsi": "Kamera DSLR entry-level dengan sensor tinggi dan fitur canggih",
+    "sensor": "APS-C CMOS 24.2MP",
+    "iso": "100-6400 (expandable 12800)",
+    "kecepatan": "4 fps",
+    "video": "Full HD 1080p",
+    "harga": "Rp 6.250.000"
+  },
+  {
+    "id": 5,
+    "nama":"Camera GV - LDX 82 FLEX-1090i Supporting 1080i Format Only",
+    "gambar": "./assets/Camera GV - LDX 82 FLEX-1090i Supporting 1080i Format Only.jpg",
+    "merek": "GV",
+    "model": "LDX 82 FLEX-1090i",
+    "deskripsi": " Mendukung format 1080i, gamut warna lebar BT.2020, dukungan HDR asli opsional dalam SMPTE ST 2084 dan HLG.",
+    "sensor":  "3x2/3 Xensium-FT CMOS",
+    "iso": " F12 (1080i50), F11 (1080i59.94)",
+    "kecepatan": "Hingga 1/1000 detik",
+    "video": "1080i",
+    "harga": "Rp 6.000.000"    
+  },
+
+  {
+    "id": 6,
+    "nama":"Sony PW 200 XDCAM HD Camcorder",
+    "gambar": "./assets/Sony PW 200 XDCAM HD Camcorder.jpg",
+    "merek": "Sony",
+    "model": "PMW-200 XDCAM HD Camcorder",
+    "deskripsi": "Kamera genggam profesional pertama dengan tiga sensor Exmor CMOS 1/2 inci, merekam Full HD 4:2:2 pada 50 Mbps.",
+    "sensor":  "3x 1/2-inch Exmor™ Full HD CMOS",
+    "iso": "F11 (1080i59.94)",
+    "kecepatan": "up to 50/60fps",
+    "video": "1080p",
+    "harga": "Rp 350.000"  
+  },
+  {
+    "id": 7,
+    "nama":"Canon XA75 UHD 4K30 Camcorder",
+    "gambar": "./assets/Canon XA75 UHD 4K30 Camcorder.jpg",
+    "merek": "Canon",
+    "model": "XA75 UHD 4K30 Camcorder",
+    "deskripsi": "Camcorder profesional ringkas dengan sensor CMOS 1 inci, merekam video 4K UHD dan Full HD menggunakan prosesor DIGIC DV6.",
+    "sensor":  " 1 inci-tipe CMOS",
+    "iso": "Rentang iluminasi subjek sekitar 0.1 lux hingga 100,000 lux",
+    "kecepatan": " 1/6 detik hingga 1/2000 detik",
+    "video": "4K UHD ",
+    "harga": "Rp 350.000"  
+  },
+  {
+    "id": 8,
+    "nama":"Sony HXR-MC2500P",
+    "gambar": "./assets/Sony HXR-MC2500P.jpg",
+    "merek": "Sony",
+    "model": "HXR-MC2500",
+    "deskripsi": "Camcorder shoulder-mount yang dilengkapi dengan sensor Exmor R CMOS 1/4, lensa sudut lebar 26.8mm, dan lampu LED internal",
+    "sensor":  "1/4 Exmor R CMOS",
+    "iso": " F12 (1080i50), F11 (1080i59.94)",
+    "kecepatan": "60fps",
+    "video": "HD",
+    "harga": "Rp 250.000"  
+  }
+]
