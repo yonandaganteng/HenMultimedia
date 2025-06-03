@@ -9,28 +9,24 @@
 <body>
   <header>
     <div class="container">
-      <div class="logo">HEN Multimedia</div>
+      <div class="logo">Hen Multimedia</div>
       <ul class="nav-links">
         <li><a href="index.html">Home</a></li>
         <li><a href="produk.html">Products</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
       </ul>
     </div>
   </header>
 
   <section class="contact">
     <h2>Kontak Kami</h2>
-   
-    <h3>
-    <a> Whatsapp : 0822-9915-0925
-    <p>Email : Henmultimedia@gmail.com</p>
-</a>
+    <div class="contact-info">
+      <p>Whatsapp: <a href="https://wa.me/6282299150925" target="_blank">0822-9915-0925</a></p>
+      <p>Email: <a href="mailto:Henmultimedia@gmail.com">Henmultimedia@gmail.com</a></p>
+    </div>
 
-    </a> 
-    </h3>
-
-    <form action="#" method="POST">
+    <form id="contactForm">
       <label for="name">Nama Lengkap</label>
       <input type="text" id="name" name="name" placeholder="Masukkan nama lengkap" required />
 
@@ -43,12 +39,39 @@
       <label for="message">Pesan</label>
       <textarea id="message" name="message" rows="6" placeholder="Tulis pesan Anda di sini" required></textarea>
 
-      <button type="submit">Kirim Pesan</button>
+      <button type="submit">Kirim Pesan via WhatsApp</button>
     </form>
   </section>
 
   <footer>
     <p>&copy; 2025 Hen Multimedia. All rights reserved.</p>
   </footer>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var subject = document.getElementById("subject").value;
+      var message = document.getElementById("message").value;
+
+      var whatsappNumber = "6282299150925"; // ganti dengan nomor WhatsApp tujuan (awali dengan kode negara, tanpa +)
+
+      var whatsappURL =
+        "https://wa.me/" +
+        whatsappNumber +
+        "?text=" +
+        encodeURIComponent(
+          "Halo Hen Multimedia,%0A%0A" +
+          "Nama: " + name + "%0A" +
+          "Email: " + email + "%0A" +
+          "Subjek: " + subject + "%0A" +
+          "Pesan:%0A" + message
+        );
+
+      window.open(whatsappURL, "_blank");
+    });
+  </script>
 </body>
 </html>
