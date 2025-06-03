@@ -14,7 +14,7 @@
   },
   {
     "id": 2,
-    "nama":"sony alpha 7",
+    "nama":"Sony Alpha 7",
     "gambar":"./assets/sony alpha 7.jpg",
     "merek": "Sony",
     "model": "A7",
@@ -27,7 +27,7 @@
   },
   {
     "id": 3,
-    "nama":"fujifilm x-t30",
+    "nama":"Fujifilm X-T30",
     "gambar":"./assets/fujifilm x-t30.jpg",
     "merek": "Fujifilm",
     "model": "X-T30",
@@ -40,7 +40,7 @@
   },
   {
     "id": 4,
-    "nama":"nikon d3200",
+    "nama":"Nikon d3200",
     "gambar": "./assets/nikon d3200.jpg",
     "merek": "Nikon",
     "model": "D3200",
@@ -53,7 +53,7 @@
   },
   {
     "id": 5,
-    "nama":"Camera GV - LDX 82 FLEX-1090i Supporting 1080i Format Only",
+    "nama":"Camera GV - LDX 82 FLEX-1090i",
     "gambar": "./assets/Camera GV - LDX 82 FLEX-1090i Supporting 1080i Format Only.jpg",
     "merek": "GV",
     "model": "LDX 82 FLEX-1090i",
