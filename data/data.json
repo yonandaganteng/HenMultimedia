@@ -76,7 +76,7 @@
     "iso": "F11 (1080i59.94)",
     "kecepatan": "up to 50/60fps",
     "video": "1080p",
-    "harga": "Rp 350.000"  
+    "harga": "Rp 30.000.000"  
   },
   {
     "id": 7,
@@ -89,7 +89,7 @@
     "iso": "Rentang iluminasi subjek sekitar 0.1 lux hingga 100,000 lux",
     "kecepatan": " 1/6 detik hingga 1/2000 detik",
     "video": "4K UHD ",
-    "harga": "Rp 350.000"  
+    "harga": "Rp 31.000.000"  
   },
   {
     "id": 8,
@@ -102,6 +102,6 @@
     "iso": " F12 (1080i50), F11 (1080i59.94)",
     "kecepatan": "60fps",
     "video": "HD",
-    "harga": "Rp 250.000"  
+    "harga": "Rp 25.000.000"  
   }
 ]
