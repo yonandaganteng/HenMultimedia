@@ -14,13 +14,13 @@
         <div class="container">
         <h1 class="logo">HEN Multimedia</h1>
         <nav>
-            <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="produk.html">Products</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="produk.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
         </div>
     </header>
 
@@ -41,5 +41,11 @@
         <p>&copy; 2025 HEN Multimedia. All rights reserved.</p>
         </div>
     </footer>
+	<script>
+  function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+  }
+</script>
 </body>
 </html>
