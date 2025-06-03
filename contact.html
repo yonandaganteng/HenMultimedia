@@ -47,31 +47,29 @@
     <p>&copy; 2025 Hen Multimedia. All rights reserved.</p>
   </footer>
 
-  <script>
-    document.getElementById("contactForm").addEventListener("submit", function (e) {
-      e.preventDefault();
+ <script>
+  document.getElementById("contactForm").addEventListener("submit", function (e) {
+    e.preventDefault();
 
-      var name = document.getElementById("name").value;
-      var email = document.getElementById("email").value;
-      var subject = document.getElementById("subject").value;
-      var message = document.getElementById("message").value;
+    var name = document.getElementById("name").value;
+    var email = document.getElementById("email").value;
+    var subject = document.getElementById("subject").value;
+    var message = document.getElementById("message").value;
 
-      var whatsappNumber = "6282299150925"; // ganti dengan nomor WhatsApp tujuan (awali dengan kode negara, tanpa +)
+    var whatsappNumber = "6282299150925"; // Nomor WhatsApp tujuan (awali dengan kode negara)
 
-      var whatsappURL =
-        "https://wa.me/" +
-        whatsappNumber +
-        "?text=" +
-        encodeURIComponent(
-          "Halo Hen Multimedia,%0A%0A" +
-          "Nama: " + name 
-          "Email: " + email 
-          "Subjek: " + subject
-          "Pesan:%0A" + message
-        );
+    var waMessage =
+      "Halo Hen Multimedia,\n\n" +
+      "Nama: " + name + "\n" +
+      "Email: " + email + "\n" +
+      "Subjek: " + subject + "\n" +
+      "Pesan:\n" + message;
 
-      window.open(whatsappURL, "_blank");
-    });
-  </script>
+    var encodedMessage = encodeURIComponent(waMessage);
+    var waLink = "https://wa.me/" + whatsappNumber + "?text=" + encodedMessage;
+
+    window.open(waLink, "_blank");
+  });
+</script>
 </body>
 </html>
