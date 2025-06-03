@@ -10,12 +10,14 @@
   <header>
     <div class="container">
       <div class="logo">Hen Multimedia</div>
-      <ul class="nav-links">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="produk.html">Products</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html" aria-current="page">Contact</a></li>
-      </ul>
+      <nav>
+  <ul class="nav-links" id="navLinks">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="produk.html">Products</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
     </div>
   </header>
 
@@ -46,6 +48,12 @@
   <footer>
     <p>&copy; 2025 Hen Multimedia. All rights reserved.</p>
   </footer>
+  <script>
+  function toggleMenu() {
+    const nav = document.getElementById('navLinks');
+    nav.classList.toggle('active');
+  }
+</script>
 
  <script>
   document.getElementById("contactForm").addEventListener("submit", function (e) {
